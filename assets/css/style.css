@@ -1,0 +1,163 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  background: #471473;
+}
+
+/* Topo mobile */
+#header,
+#about,
+#header-desktop {
+  background: #471473;
+  color: #fff;
+}
+
+#header .title {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0em;
+}
+
+#header .subtitle {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+}
+
+#header .bolder {
+  font-weight: 500;
+}
+
+#header .surfboy {
+  text-align: right;
+  max-width: 287px;
+  width: 100%;
+}
+
+#header .mobile {
+  text-align: left;
+  max-width: 300px;
+  width: 100%;
+}
+
+#header .google-apple {
+  text-align: left;
+  max-width: 126px;
+  width: 100%;
+}
+
+#header .stores {
+  text-align: right;
+  max-width: 125.73px;
+  max-height: 37.29px;
+  width: 100%;
+  height: auto;
+}
+
+#header .woman {
+  text-align: left;
+  max-width: 401px;
+  width: 100%;
+}
+
+/* Topo desktop */
+#header-desktop .title {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#header-desktop .subtitle {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* Quem somos e Sobre */
+#know-us .title,
+#about .title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#know-us .description,
+#about .description {
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#know-us .money {
+  max-width: 314px;
+  width: 100%;
+}
+
+#about .car {
+  max-width: 480px;
+  width: 100%;
+}
+
+/* desktop */
+@media (min-width: 768px) {
+  .menu-item {
+    padding: 10px 20px !important;
+    background: #d7fd3e;
+    color: #632f92 !important;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 20px;
+  }
+
+  #know-us .title,
+  #about .title {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  #know-us .description,
+  #about .description {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+  }
+
+  #know-us .description {
+    text-align: left;
+  }
+
+  #know-us .money {
+    max-width: 584px;
+    width: 100%;
+  }
+}
