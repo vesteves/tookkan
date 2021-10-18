@@ -116,7 +116,8 @@ body {
   width: 100%;
 }
 
-#about .car {
+#about .car ,
+#about .tend {
   max-width: 480px;
   width: 100%;
 }
