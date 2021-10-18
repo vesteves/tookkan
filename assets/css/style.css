@@ -7,6 +7,10 @@ body {
 }
 
 /* Topo mobile */
+#header-desktop {
+  padding-top: 120px;
+}
+
 #header,
 #about,
 #header-desktop {
