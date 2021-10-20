@@ -25,7 +25,7 @@ body {
 }
 
 #header-desktop {
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 #header,
@@ -62,21 +62,21 @@ body {
 }
 
 .mobile {
-  text-align: left;
-  max-width: 300px;
+  margin-left: auto;
+  max-width: 174px;
   width: 100%;
 }
 
 .discover,
 .discover {
-  margin: auto;
+  margin-left: auto;
   max-width: 72px;
   width: 100%;
 }
 
 .google-apple {
   text-align: left;
-  max-width: 126px;
+  max-width: 181px;
   width: 100%;
   margin-left: auto;
 }
@@ -85,12 +85,12 @@ body {
   text-align: left;
   max-width: 365px;
   width: 100%;
-  margin-left: center;
+  margin-left: auto;
 }
 
 /* Topo desktop */
 #header-desktop .title {
-  font-size: 48px;
+  font-size: 46px;
   font-style: normal;
   font-weight: 500;
   line-height: 72px;
@@ -101,7 +101,7 @@ body {
 #header-desktop .subtitle {
   font-size: 24px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
@@ -142,12 +142,14 @@ body {
 }
 
 #know-us {
+  padding-top: 100px;
   background-image: url("../img/bg-middle.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #about {
+  padding-top: 100px;
   background-image: url("../img/bg-bottom.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
